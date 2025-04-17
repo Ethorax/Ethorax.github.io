@@ -1,0 +1,58 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/Wall.png');
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: 10% 10%;
+}
+
+.btn-group,.top{
+    background-color: black;
+}
+.left-buttons{
+    float: right;
+}
+
+img{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info p{
+    color: aliceblue;
+    background-color: black;
+}
+
+.btn-group button {
+    background-color: rgb(141, 141, 141);
+    border: 1px solid rgb(130, 130, 130);
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #5c5c5c;
+}
